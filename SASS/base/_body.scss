@@ -7,6 +7,7 @@
     span {
         display: inline-flex;
         font-size: 7rem;
+        font-family: $font-nav;
         font-weight: bold;
         transform: scale(0);
         animation: animate .5s ease-in-out forwards alternate-reverse infinite;
@@ -64,6 +65,7 @@
     .centered {
         span {
             font-size: 3rem;
+            font-family: $font-nav;
         }
     }
 }
@@ -72,6 +74,7 @@
     .centered {
         span {
             font-size: 3rem;
+            font-family: $font-nav;
         }
     }
 }
