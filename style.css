@@ -1,11 +1,89 @@
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.centered span {
+  display: inline-flex;
+  font-size: 7rem;
+  font-family: "Solway", serif;
+  font-weight: bold;
+  transform: scale(0);
+  animation: animate 0.5s ease-in-out forwards alternate-reverse infinite;
+}
+.centered span:nth-child(1) {
+  animation-delay: 0.3s;
+}
+.centered span:nth-child(2) {
+  animation-delay: 0.4s;
+}
+.centered span:nth-child(3) {
+  animation-delay: 0.5s;
+}
+.centered span:nth-child(4) {
+  animation-delay: 0.6s;
+}
+.centered span:nth-child(5) {
+  animation-delay: 0.7s;
+}
+.centered span:nth-child(6) {
+  animation-delay: 0.8s;
+}
+.centered span:nth-child(7) {
+  animation-delay: 0.9s;
+}
+.centered span:nth-child(8) {
+  animation-delay: 1s;
+}
+.centered span:nth-child(9) {
+  animation-delay: 1.1s;
+}
+@keyframes animate {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 576px) {
+  .centered span {
+    font-size: 3rem;
+    font-family: "Solway", serif;
+  }
+}
+@media (max-width: 768px) {
+  .centered span {
+    font-size: 3rem;
+    font-family: "Solway", serif;
+  }
+}
 * {
   margin: 0;
   padding: 0;
   font-size: 10px;
 }
 
+.fab {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 4rem;
+}
+
+.navbar-brand {
+  text-transform: uppercase;
+  font-family: "Solway", serif;
+}
+
 .nav-item a {
   font-size: 2rem;
+  font-family: "Solway", serif;
+}
+.nav-item a:hover {
+  text-decoration-line: underline;
+  text-decoration-color: white;
 }
 
 .navbar-brand {
