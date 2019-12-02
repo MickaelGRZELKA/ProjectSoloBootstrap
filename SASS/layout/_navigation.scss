@@ -1,7 +1,12 @@
+.navbar {
+    background-color: $bgc-nav-footer;
+}
+
 .nav-item {
     a {
         font-size: 2rem;
-        font-family: $font-nav;
+        font-family: $font-family-nav;
+        color: $font-color-nav;
     }
 
     a:hover {
